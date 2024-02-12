@@ -1,0 +1,196 @@
+*{box-sizing:border-box}
+
+body{
+    margin:0px; 
+    font-family:var(--PT);
+    background-color:rgb(204, 171, 133, 0.527);
+}
+
+:root{
+    --c1:white;
+    --PT:'PT Serif', serif;
+    --bs:0px 5px 8px gray;
+}
+
+.row{
+    display:flex
+}
+
+.column{
+    display:flex; flex-direction:column;
+}
+
+blockquote{
+    margin:0px
+}
+
+.ig{
+    flex:1
+}
+
+.ef{
+    width:85%
+}
+
+.center{
+    justify-content:center; align-items:center;
+}
+
+header, .c2, .c3, .c45, .c6, .c7{
+    margin-bottom:10px; padding:10px;
+}
+
+/* Menu */
+header{
+    background-color:rgba(204, 171, 133, 0.527);
+    box-shadow:0px 5px 10px rgba(83, 49, 49, 0.459);
+}
+
+.c1{
+    justify-content:space-between; align-items:center;
+}
+
+.cruz{
+    align-items:center;
+}
+
+.cruz img{
+    width:200px; border-radius:100px;
+    margin-right:20px
+}
+
+.cruz h1, .cruz h2{
+    padding:0px; margin:0px;
+    text-align:center;
+    text-shadow:1px 2px 1px white;
+}
+
+.cruz h2{
+    color:gray; font-size:20px;
+}
+
+.menu a{
+    text-decoration:none; color:black; text-align:center;
+    padding:10px;
+    background-color:white; border:0px; border-radius:10px;
+    margin-left:10px;
+    width:100px; height:55px;
+    display:flex; justify-content:center; align-items:center;
+    box-shadow:1px 4px 10px gray;
+}
+
+.bot{
+    padding-top:20px; margin:auto
+}
+
+.menu a:hover{
+    border:5px solid lightgray; border-radius:10px;
+    box-shadow:1px 4px 8px white;
+}
+
+/* Apresentação */
+.c2{
+    align-items:center;
+    text-align:center;
+    color:white; background:linear-gradient(-29deg,rgba(131, 126, 126, 0.932),rgba(30, 90, 72, 0.719));
+    box-shadow:var(--bs);
+    border-radius:20px;
+    font-family:var(--PT); font-size:16.5px
+}
+
+.c2 h1:hover{
+    text-shadow:0px 3px 5px lightblue;
+}
+
+.esq{
+    text-align:left;
+    margin-right:300px;
+}
+
+.dir{
+    text-align:right;
+    margin-left:300px;
+}
+
+blockquote h3{
+    font-size:13px; font-weight:normal;
+    border:1px solid white;
+    box-shadow:0px 5px 10px lightgray;
+    padding:10px;
+    border-radius:5px 0px;
+}
+
+/* Histórico */
+.c3{
+    align-items:center;
+    background:linear-gradient(29deg, rgb(200, 218, 224), lightgray, rgb(168, 168, 168));
+    border-radius:20px;
+    text-align:justify;
+    box-shadow:var(--bs)
+}
+
+.txt1{
+    padding:10px;
+    font-size:20px
+}
+
+.txt h1{
+    margin:0px
+}
+
+/* Informações Rápidas e Obras */
+.c45{
+    background-color:gray;
+    justify-content:space-between;
+    border-radius:10px;
+    box-shadow:var(--bs)
+}
+
+.c45 h1{
+    margin:0px
+}
+
+/*Principais Poemas */
+.c6{
+    align-items:center;
+}
+
+.c6 h1, .c6 h2{
+    margin: 10px;
+}
+
+.c6 h2{
+    color:gray;
+    font-size:20px;
+}
+
+.c6 blockquote{
+    min-width:300px; padding:10px
+}
+
+/* Mais Informações */
+.c7 a{
+    color:blue
+}
+
+/* Rodapé */
+footer{
+    background-color:lightslategray;
+}
+
+footer img{
+    width:40px;
+}
+
+.di{
+    border-bottom:0.5px solid lightblue;
+    padding:7px 0px;
+}
+
+.space{
+    background-color:transparent; width:20px;
+}
+
+.social{
+    margin-bottom:10px;
+}
